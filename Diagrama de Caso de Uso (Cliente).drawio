@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="6hSx-ZmMj8I2fYd_oCle">
+    <mxGraphModel dx="861" dy="479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QTX4Rk9Z-Fq42iymzDN6-10" edge="1" parent="1" source="QTX4Rk9Z-Fq42iymzDN6-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="QTX4Rk9Z-Fq42iymzDN6-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QTX4Rk9Z-Fq42iymzDN6-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;labelPerimeter=1;" value="Cliente" vertex="1">
+          <mxGeometry height="60" width="30" x="100" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="QTX4Rk9Z-Fq42iymzDN6-4" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="380" width="380" x="150" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QTX4Rk9Z-Fq42iymzDN6-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Creacion de Pedido" vertex="1">
+          <mxGeometry height="40" width="110" x="160" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="QTX4Rk9Z-Fq42iymzDN6-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Revisar pedido" vertex="1">
+          <mxGeometry height="40" width="110" x="170" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="QTX4Rk9Z-Fq42iymzDN6-13" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Cancelar pedido" vertex="1">
+          <mxGeometry height="40" width="110" x="170" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="QTX4Rk9Z-Fq42iymzDN6-14" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Lista de Ingredientes" vertex="1">
+          <mxGeometry height="40" width="110" x="290" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="QTX4Rk9Z-Fq42iymzDN6-15" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="" vertex="1">
+          <mxGeometry height="40" width="110" x="430" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="QTX4Rk9Z-Fq42iymzDN6-16" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Diseño" vertex="1">
+          <mxGeometry height="40" width="110" x="320" y="220" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
