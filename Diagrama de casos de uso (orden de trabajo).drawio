@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Página-1" id="EffiV_ySIdx8lHCO5V_J">
-    <mxGraphModel dx="1857" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2320" dy="814" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="W5FceJWWfOBlR28MqZ_r-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="290" width="400" x="460" y="145" as="geometry" />
+          <mxGeometry height="290" width="450" x="450" y="150" as="geometry" />
         </mxCell>
         <mxCell id="W5FceJWWfOBlR28MqZ_r-17" edge="1" parent="1" source="W5FceJWWfOBlR28MqZ_r-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;" target="W5FceJWWfOBlR28MqZ_r-16">
           <mxGeometry relative="1" as="geometry" />
@@ -17,7 +17,7 @@
           <mxGeometry height="60" width="30" x="400" y="260" as="geometry" />
         </mxCell>
         <mxCell id="W5FceJWWfOBlR28MqZ_r-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="190" width="250" x="60" y="200" as="geometry" />
+          <mxGeometry height="250" width="250" x="60" y="200" as="geometry" />
         </mxCell>
         <mxCell id="W5FceJWWfOBlR28MqZ_r-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Pedido Personalizado" vertex="1">
           <mxGeometry height="60" width="110" x="60" y="220" as="geometry" />
@@ -36,6 +36,9 @@
             <mxPoint x="310" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="W5FceJWWfOBlR28MqZ_r-36" edge="1" parent="1" source="W5FceJWWfOBlR28MqZ_r-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="W5FceJWWfOBlR28MqZ_r-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="W5FceJWWfOBlR28MqZ_r-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Estado de Produccion" vertex="1">
           <mxGeometry height="60" width="110" x="490" y="260" as="geometry" />
         </mxCell>
@@ -43,7 +46,7 @@
           <mxGeometry height="60" width="110" x="680" y="170" as="geometry" />
         </mxCell>
         <mxCell id="W5FceJWWfOBlR28MqZ_r-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Registrar incidencia en Cocina" vertex="1">
-          <mxGeometry height="60" width="110" x="680" y="340" as="geometry" />
+          <mxGeometry height="60" width="110" x="670" y="330" as="geometry" />
         </mxCell>
         <mxCell id="W5FceJWWfOBlR28MqZ_r-14" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Consulta Pedido" vertex="1">
           <mxGeometry height="60" width="110" x="65" y="290" as="geometry" />
@@ -75,6 +78,27 @@
           <mxGeometry relative="1" x="-0.0101" y="8" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="W5FceJWWfOBlR28MqZ_r-27" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Descuento&amp;nbsp;&lt;div&gt;Insumos&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="130" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="W5FceJWWfOBlR28MqZ_r-28" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelPerimeter=1;" value="Bodeguero" vertex="1">
+          <mxGeometry height="60" width="30" x="170" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="W5FceJWWfOBlR28MqZ_r-30" edge="1" parent="1" source="W5FceJWWfOBlR28MqZ_r-27" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;" target="W5FceJWWfOBlR28MqZ_r-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W5FceJWWfOBlR28MqZ_r-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="140" width="250" x="60" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="W5FceJWWfOBlR28MqZ_r-38" edge="1" parent="1" source="W5FceJWWfOBlR28MqZ_r-35" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;" target="W5FceJWWfOBlR28MqZ_r-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W5FceJWWfOBlR28MqZ_r-35" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Pedido Realizado/Confirmar Despacho" vertex="1">
+          <mxGeometry height="60" width="120" x="720" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="W5FceJWWfOBlR28MqZ_r-37" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelPerimeter=1;" value="Repartidor" vertex="1">
+          <mxGeometry height="60" width="30" x="980" y="260" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
