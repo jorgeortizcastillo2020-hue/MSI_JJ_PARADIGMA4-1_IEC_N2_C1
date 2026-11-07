@@ -1,9 +1,40 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Página-1" id="9Rhrw2w6-utSteyftbF9">
-    <mxGraphModel>
+    <mxGraphModel dx="1241" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Xw1mstr7SI9P8B5O9Ocl-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="170" width="150" x="610" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="Xw1mstr7SI9P8B5O9Ocl-1" edge="1" parent="1" source="Xw1mstr7SI9P8B5O9Ocl-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;" target="Xw1mstr7SI9P8B5O9Ocl-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xw1mstr7SI9P8B5O9Ocl-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelPerimeter=1;" value="Cocinero" vertex="1">
+          <mxGeometry height="60" width="30" x="500" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="Xw1mstr7SI9P8B5O9Ocl-12" edge="1" parent="1" source="Xw1mstr7SI9P8B5O9Ocl-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;" target="Xw1mstr7SI9P8B5O9Ocl-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="830" y="400" />
+              <mxPoint x="830" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xw1mstr7SI9P8B5O9Ocl-13" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Pedido Realizado/Confirmar Despacho" vertex="1">
+          <mxGeometry height="60" width="120" x="620" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="Xw1mstr7SI9P8B5O9Ocl-14" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelPerimeter=1;" value="Repartidor" vertex="1">
+          <mxGeometry height="60" width="30" x="650" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Xw1mstr7SI9P8B5O9Ocl-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="280" width="230" x="240" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="Xw1mstr7SI9P8B5O9Ocl-18" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Pedido Realizado/Confirmar Despacho" vertex="1">
+          <mxGeometry height="60" width="120" x="294" y="110" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
