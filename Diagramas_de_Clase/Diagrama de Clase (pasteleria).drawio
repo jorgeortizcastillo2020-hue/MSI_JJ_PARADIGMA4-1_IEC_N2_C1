@@ -1,18 +1,9 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Página-1" id="Vq22znM74qH_19CHSuQa">
-    <mxGraphModel dx="2416" dy="873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1325" dy="277" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="IbZXF3UlOWFsC0oAKt5Z-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="TallerEstado" vertex="1">
-          <mxGeometry height="142" width="160" x="300" y="470" as="geometry" />
-        </mxCell>
-        <mxCell id="IbZXF3UlOWFsC0oAKt5Z-2" parent="IbZXF3UlOWFsC0oAKt5Z-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;div&gt;- id_pedido: int (FK)&lt;/div&gt;&lt;/div&gt;&lt;div&gt;- id_estado: int (FK)&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="108" width="160" y="26" as="geometry" />
-        </mxCell>
-        <mxCell id="IbZXF3UlOWFsC0oAKt5Z-3" parent="IbZXF3UlOWFsC0oAKt5Z-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;" value="" vertex="1">
-          <mxGeometry height="8" width="160" y="134" as="geometry" />
-        </mxCell>
         <mxCell id="IbZXF3UlOWFsC0oAKt5Z-5" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Insumo" vertex="1">
           <mxGeometry height="154" width="160" x="270" y="786" as="geometry" />
         </mxCell>
@@ -98,19 +89,46 @@
           <mxGeometry height="26" width="170" y="120" as="geometry" />
         </mxCell>
         <mxCell id="K9yxIC0LOwvfYS7UF9dv-11" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="EstadoPedido" vertex="1">
-          <mxGeometry height="154" width="160" x="560" y="440" as="geometry" />
+          <mxGeometry height="190" width="180" x="1000" y="910" as="geometry" />
         </mxCell>
-        <mxCell id="K9yxIC0LOwvfYS7UF9dv-12" parent="K9yxIC0LOwvfYS7UF9dv-11" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&amp;nbsp;- id_esta&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;do: int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ nombre_estado: str&lt;/div&gt;" vertex="1">
-          <mxGeometry height="94" width="160" y="26" as="geometry" />
+        <mxCell id="K9yxIC0LOwvfYS7UF9dv-12" parent="K9yxIC0LOwvfYS7UF9dv-11" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&amp;nbsp;- id_esta&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;do: Int (PK)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ nombre_estado: String&lt;/div&gt;&lt;div&gt;+ descripcion: String&lt;/div&gt;&lt;div&gt;+ orden_secuencia: Int&lt;/div&gt;" vertex="1">
+          <mxGeometry height="94" width="180" y="26" as="geometry" />
         </mxCell>
         <mxCell id="K9yxIC0LOwvfYS7UF9dv-13" parent="K9yxIC0LOwvfYS7UF9dv-11" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="8" width="180" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="K9yxIC0LOwvfYS7UF9dv-14" parent="K9yxIC0LOwvfYS7UF9dv-11" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ getNombreEstado(): String&lt;div&gt;+ DespachoListol(): Bool&lt;/div&gt;" vertex="1">
+          <mxGeometry height="62" width="180" y="128" as="geometry" />
+        </mxCell>
+        <mxCell id="3GzeXLRXa6YuX_RaL9bM-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Pedido" vertex="1">
+          <mxGeometry height="180" width="160" x="800" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="3GzeXLRXa6YuX_RaL9bM-2" parent="3GzeXLRXa6YuX_RaL9bM-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ id_pedido: Int (PK)&lt;div&gt;+ fecha_creacion: DateTime&lt;/div&gt;&lt;div&gt;+ Fecha_limite: DateTime&lt;br&gt;&lt;div&gt;+ si_es_urgente: Bool&lt;/div&gt;&lt;/div&gt;&lt;div&gt;+ total: Decimal&lt;/div&gt;&lt;div&gt;+ estado_pago: String&lt;/div&gt;" vertex="1">
+          <mxGeometry height="94" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3GzeXLRXa6YuX_RaL9bM-3" parent="3GzeXLRXa6YuX_RaL9bM-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;" value="" vertex="1">
           <mxGeometry height="8" width="160" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="K9yxIC0LOwvfYS7UF9dv-14" parent="K9yxIC0LOwvfYS7UF9dv-11" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ method(type): type" vertex="1">
-          <mxGeometry height="26" width="160" y="128" as="geometry" />
+        <mxCell id="3GzeXLRXa6YuX_RaL9bM-4" parent="3GzeXLRXa6YuX_RaL9bM-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+&amp;nbsp;&lt;div&gt;+&lt;/div&gt;" vertex="1">
+          <mxGeometry height="52" width="160" y="128" as="geometry" />
         </mxCell>
-        <mxCell id="K9yxIC0LOwvfYS7UF9dv-15" edge="1" parent="1" source="K9yxIC0LOwvfYS7UF9dv-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.988;entryY=0.176;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="IbZXF3UlOWFsC0oAKt5Z-2">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="3GzeXLRXa6YuX_RaL9bM-6" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="TallerEstado" vertex="1">
+          <mxGeometry height="190" width="180" x="990" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="3GzeXLRXa6YuX_RaL9bM-7" parent="3GzeXLRXa6YuX_RaL9bM-6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ id_taller: Int&lt;/div&gt;&lt;div&gt;+ num_bandeja: Int&lt;/div&gt;&lt;div&gt;+ fecha_hora_inicio: DateTime&lt;/div&gt;&lt;div&gt;+ fecha_hora_final: DateTime&lt;/div&gt;&lt;div&gt;+ observaciones: String&lt;/div&gt;" vertex="1">
+          <mxGeometry height="94" width="180" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3GzeXLRXa6YuX_RaL9bM-8" parent="3GzeXLRXa6YuX_RaL9bM-6" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="8" width="180" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3GzeXLRXa6YuX_RaL9bM-9" parent="3GzeXLRXa6YuX_RaL9bM-6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ RegistrarAvance(): void&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;+ ImprimirTicketBandeja(): void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ ReportarIncidentes(): void&lt;/div&gt;" vertex="1">
+          <mxGeometry height="62" width="180" y="128" as="geometry" />
+        </mxCell>
+        <mxCell id="3GzeXLRXa6YuX_RaL9bM-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Logica de Pedido, Taller y EstadoPedido" vertex="1">
+          <mxGeometry height="30" width="190" x="1250" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="3GzeXLRXa6YuX_RaL9bM-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Pedido es la orden perse, la info tal cual del pedido. TallerEstado es la Info del Taller, Dentro del local. Estado pedido es el Estado del pedido si esta listo para despacho" vertex="1">
+          <mxGeometry height="86" width="250" x="1230" y="450" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
