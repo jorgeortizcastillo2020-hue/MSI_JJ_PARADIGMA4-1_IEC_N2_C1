@@ -253,7 +253,7 @@
           <mxGeometry height="30" width="360" x="345" y="355" as="geometry" />
         </mxCell>
         <mxCell id="yrfzPt6yHuDVi-4IKtAV-72" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Capa de Persistencia (Base de Datos)" vertex="1">
-          <mxGeometry height="30" width="360" x="345" y="605" as="geometry" />
+          <mxGeometry height="30" width="360" x="360" y="605" as="geometry" />
         </mxCell>
         <mxCell id="yrfzPt6yHuDVi-4IKtAV-77" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="IProduccionAPI" vertex="1">
           <mxGeometry height="30" width="100" x="450" y="410" as="geometry" />
