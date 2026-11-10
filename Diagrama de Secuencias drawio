@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Página-1" id="jtOIAQq9SATAlWN3Gj8X">
-    <mxGraphModel dx="1248" dy="694" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="645" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -90,8 +90,8 @@
         </mxCell>
         <mxCell id="VPGD69Y4hUYKj31f9pg9-3" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;startArrow=classic;startFill=1;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="538.5" y="330" as="sourcePoint" />
-            <mxPoint x="414" y="330" as="targetPoint" />
+            <mxPoint x="532.25" y="344.5" as="sourcePoint" />
+            <mxPoint x="407.75" y="344.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VPGD69Y4hUYKj31f9pg9-4" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;startArrow=classic;startFill=1;" value="">
@@ -138,8 +138,13 @@
         </mxCell>
         <mxCell id="VPGD69Y4hUYKj31f9pg9-17" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;startArrow=classic;startFill=1;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="939.9999999999995" y="710" as="sourcePoint" />
-            <mxPoint x="540" y="710" as="targetPoint" />
+            <mxPoint x="929.9999999999995" y="710" as="sourcePoint" />
+            <mxPoint x="530" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VPGD69Y4hUYKj31f9pg9-38" connectable="0" parent="VPGD69Y4hUYKj31f9pg9-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Actualizar Estado Kanban (&quot;Recibido&quot;)" vertex="1">
+          <mxGeometry relative="1" x="0.1469" y="2" as="geometry">
+            <mxPoint y="-12" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VPGD69Y4hUYKj31f9pg9-18" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;startArrow=classic;startFill=1;dashed=1;" value="">
@@ -201,6 +206,63 @@
             <mxPoint x="675" y="1260" as="sourcePoint" />
             <mxPoint x="414" y="1260" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="VPGD69Y4hUYKj31f9pg9-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Despacho" vertex="1">
+          <mxGeometry height="30" width="60" x="1145" y="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="VPGD69Y4hUYKj31f9pg9-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Solicitar Cotizacion" vertex="1">
+          <mxGeometry height="30" width="60" x="440" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="VPGD69Y4hUYKj31f9pg9-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Verificar Stock" vertex="1">
+          <mxGeometry height="30" width="120" x="560" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="VPGD69Y4hUYKj31f9pg9-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Retornar Disponbildad" vertex="1">
+          <mxGeometry height="30" width="150" x="570" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="VPGD69Y4hUYKj31f9pg9-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Calcular Total" vertex="1">
+          <mxGeometry height="30" width="100" x="550" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="VPGD69Y4hUYKj31f9pg9-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Confimar pedido y abonar" vertex="1">
+          <mxGeometry height="30" width="160" x="390" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="VPGD69Y4hUYKj31f9pg9-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Reservar Insumos" vertex="1">
+          <mxGeometry height="30" width="160" x="570" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="VPGD69Y4hUYKj31f9pg9-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Crear Orden (Id Pedido, Num. bande y codigo de Ticket)" vertex="1">
+          <mxGeometry height="30" width="330" x="560" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="VPGD69Y4hUYKj31f9pg9-37" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Descontar Stock segun Ingredientes (BOM)&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="234.5" x="552.75" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="VPGD69Y4hUYKj31f9pg9-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Notificar Ticket Pedido Unico" vertex="1">
+          <mxGeometry height="30" width="170" x="910.5" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="VPGD69Y4hUYKj31f9pg9-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Cambiar Estado (&quot;EN_PREPARACION&quot;)" vertex="1">
+          <mxGeometry height="30" width="160" x="900" y="765" as="geometry" />
+        </mxCell>
+        <mxCell id="VPGD69Y4hUYKj31f9pg9-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Cambiar Estado (&quot;HORNEADO_DECORADO&quot;)" vertex="1">
+          <mxGeometry height="30" width="160" x="905" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="VPGD69Y4hUYKj31f9pg9-42" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Cambiar Estado (&quot;LISTO_PARA_ENTREGA&quot;)" vertex="1">
+          <mxGeometry height="30" width="160" x="905" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="VPGD69Y4hUYKj31f9pg9-43" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Generar Orden Despacho (Id pedido)" vertex="1">
+          <mxGeometry height="30" width="185" x="950.5" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="VPGD69Y4hUYKj31f9pg9-44" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Notificar pedido listo en App" vertex="1">
+          <mxGeometry height="30" width="125" x="1170" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="VPGD69Y4hUYKj31f9pg9-45" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Aceptar Despacho" vertex="1">
+          <mxGeometry height="30" width="60" x="1195" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="VPGD69Y4hUYKj31f9pg9-46" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Confirmar Entrega" vertex="1">
+          <mxGeometry height="30" width="60" x="1195" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="VPGD69Y4hUYKj31f9pg9-47" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Actualizar Estado (&quot;ENTREGADO&quot;)" vertex="1">
+          <mxGeometry height="30" width="160" x="1155" y="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="VPGD69Y4hUYKj31f9pg9-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Notificar Entrega" vertex="1">
+          <mxGeometry height="30" width="140" x="400" y="1230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
