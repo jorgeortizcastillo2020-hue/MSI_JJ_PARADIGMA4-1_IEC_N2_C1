@@ -40,24 +40,6 @@
         <mxCell id="yrfzPt6yHuDVi-4IKtAV-11" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Base de Datos&lt;div&gt;MySQL&lt;/div&gt;&lt;div&gt;(O PostgreSQL)&lt;/div&gt;" vertex="1">
           <mxGeometry height="120" width="110" x="465" y="660" as="geometry" />
         </mxCell>
-        <mxCell id="yrfzPt6yHuDVi-4IKtAV-19" edge="1" parent="1" source="yrfzPt6yHuDVi-4IKtAV-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;" target="yrfzPt6yHuDVi-4IKtAV-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="yrfzPt6yHuDVi-4IKtAV-15" parent="1" style="shape=providedRequiredInterface;html=1;verticalLabelPosition=bottom;sketch=0;labelPerimeter=1;" value="" vertex="1">
-          <mxGeometry height="20" width="20" x="220" y="220" as="geometry" />
-        </mxCell>
-        <mxCell id="yrfzPt6yHuDVi-4IKtAV-21" edge="1" parent="1" source="yrfzPt6yHuDVi-4IKtAV-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;" target="yrfzPt6yHuDVi-4IKtAV-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="yrfzPt6yHuDVi-4IKtAV-17" parent="1" style="shape=providedRequiredInterface;html=1;verticalLabelPosition=bottom;sketch=0;labelPerimeter=1;" value="" vertex="1">
-          <mxGeometry height="20" width="20" x="480" y="220" as="geometry" />
-        </mxCell>
-        <mxCell id="yrfzPt6yHuDVi-4IKtAV-23" edge="1" parent="1" source="yrfzPt6yHuDVi-4IKtAV-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;" target="yrfzPt6yHuDVi-4IKtAV-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="yrfzPt6yHuDVi-4IKtAV-18" parent="1" style="shape=providedRequiredInterface;html=1;verticalLabelPosition=bottom;sketch=0;labelPerimeter=1;" value="" vertex="1">
-          <mxGeometry height="20" width="20" x="870" y="220" as="geometry" />
-        </mxCell>
         <mxCell id="yrfzPt6yHuDVi-4IKtAV-56" edge="1" parent="1" source="yrfzPt6yHuDVi-4IKtAV-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;entryPerimeter=0;" target="yrfzPt6yHuDVi-4IKtAV-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -187,12 +169,6 @@
             <mxPoint x="480" y="489" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yrfzPt6yHuDVi-4IKtAV-50" edge="1" parent="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=halfCircle;endFill=0;endSize=6;strokeWidth=1;sketch=0;fontSize=12;curved=1;defaultLabelBackgroundColor=page;" value="">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="740" y="530" as="sourcePoint" />
-            <mxPoint x="759.9999999999999" y="530.0000000000001" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="yrfzPt6yHuDVi-4IKtAV-51" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;aspect=fixed;fillColor=none;strokeColor=none;resizable=0;perimeter=centerPerimeter;rotatable=0;allowArrows=0;points=[];outlineConnect=1;" value="" vertex="1">
           <mxGeometry height="10" width="10" x="760" y="530" as="geometry" />
         </mxCell>
@@ -278,9 +254,6 @@
         </mxCell>
         <mxCell id="yrfzPt6yHuDVi-4IKtAV-72" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Capa de Persistencia (Base de Datos)" vertex="1">
           <mxGeometry height="30" width="360" x="345" y="605" as="geometry" />
-        </mxCell>
-        <mxCell id="yrfzPt6yHuDVi-4IKtAV-73" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="IFrontEndAPI" vertex="1">
-          <mxGeometry height="30" width="100" x="240" y="215" as="geometry" />
         </mxCell>
         <mxCell id="yrfzPt6yHuDVi-4IKtAV-77" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="IProduccionAPI" vertex="1">
           <mxGeometry height="30" width="100" x="450" y="410" as="geometry" />
