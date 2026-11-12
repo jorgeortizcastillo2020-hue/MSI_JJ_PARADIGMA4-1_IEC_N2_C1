@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Página-1" id="iSRhYKw6KceUNesPSq-G">
-    <mxGraphModel dx="1131" dy="952" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="999" dy="840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -71,7 +71,7 @@
             </mxGeometry>
           </mxCell>
         </UserObject>
-        <UserObject label="App Repartidor&#xa;(Nativa)" plantUmlId="n_10" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=6;fillColor=#F1F1F1;strokeColor=#181818;fontSize=14;whiteSpace=wrap;spacingRight=10;spacingTop=9;" plantUmlBaseValue="App Repartidor&#xa;(PWA / Nativa)" id="4mfQDCMfygyQ5WlehiBb-12">
+        <UserObject label="App Repartidor&#xa;(PWA)" plantUmlId="n_10" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=6;fillColor=#F1F1F1;strokeColor=#181818;fontSize=14;whiteSpace=wrap;spacingRight=10;spacingTop=9;" plantUmlBaseValue="App Repartidor&#xa;(PWA / Nativa)" id="4mfQDCMfygyQ5WlehiBb-12">
           <mxCell parent="4mfQDCMfygyQ5WlehiBb-3" style="rounded=1;absoluteArcSize=1;arcSize=6;fillColor=#F1F1F1;strokeColor=#181818;fontSize=14;whiteSpace=wrap;spacingRight=10;spacingTop=9;" vertex="1">
             <mxGeometry height="49" width="138" x="387" y="34" as="geometry" />
           </mxCell>
