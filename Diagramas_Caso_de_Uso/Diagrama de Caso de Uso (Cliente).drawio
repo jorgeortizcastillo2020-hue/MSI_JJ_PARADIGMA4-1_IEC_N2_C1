@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Página-1" id="6hSx-ZmMj8I2fYd_oCle">
-    <mxGraphModel dx="625" dy="1904" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1178" dy="1828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -75,7 +75,7 @@
           <mxGeometry height="60" width="30" x="720" y="185" as="geometry" />
         </mxCell>
         <mxCell id="hXPiNbEAEPXiGi8E7oo_-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Sistema de Pedido Movil&lt;div&gt;(Vista Cliente)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="210" x="347.5" y="-50" as="geometry" />
+          <mxGeometry height="30" width="210" x="347.5" y="-20" as="geometry" />
         </mxCell>
         <mxCell id="0UxIa-NsRME8N6zUrLCY-1" edge="1" parent="1" source="hXPiNbEAEPXiGi8E7oo_-8" style="endArrow=none;dashed=1;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endFill=0;startArrow=classic;startFill=1;" target="QTX4Rk9Z-Fq42iymzDN6-14" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
